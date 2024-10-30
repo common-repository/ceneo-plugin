@@ -1,0 +1,93 @@
+.ceneoplugpopprodvert, .ceneoplugpopprodhoriz {
+	padding:5px;
+	background-color:#eee;
+	position:relative;
+	color:#444;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.ceneoplugpopprodvert h3.widget-title, .ceneoplugpopprodhoriz h3.widget-title {
+	text-transform:none;
+	font-size:1.2em;
+	color:#F47820;
+	line-height:1em;
+	font-weight:bold;
+	text-shadow: 0 1px rgba(255,255,255,0.9);
+	letter-spacing:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-bottom:5px;
+}
+.ceneoplugpopprodvert h3.widget-title img, .ceneoplugpopprodhoriz h3.widget-title img {
+	vertical-align:middle;
+	margin-right:5px;
+	border:0;
+}
+.ceneo-vertical-plugin, .ceneo-horizontal-plugin {
+	border:1px solid #ddd;
+	background-color:#fff;
+	padding:5px;
+	font-size:12px;
+}
+.ceneo-horizontal-plugin {
+	padding:5px;
+	overflow:auto
+}
+
+.ceneo-horizontal-plugin .prodItem h4 a, .ceneo-vertical-plugin .prodItem h4 a {
+	color:#076E9E;
+	font-size:1em;
+	text-decoration:none
+}
+.ceneo-horizontal-plugin .prodItem h4, .ceneo-vertical-plugin .prodItem h4 {
+	font-weight:bold;
+	margin-bottom:1em;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#076E9E;
+	font-size:1.1em;
+}
+.ceneo-horizontal-plugin h4 {
+	line-height: 1.2;
+	height: 32px;
+	overflow: hidden;
+	width:210px;
+}
+.ceneo-vertical-plugin .prodItem {
+	border-bottom:1px solid #ddd;
+	padding-bottom:10px
+}
+.ceneo-vertical-plugin p, .ceneo-horizontal-plugin p {
+	margin-bottom:2px;
+}
+.ceneo-vertical-plugin .prodPix, .ceneo-horizontal-plugin .prodPix {
+	float:left;
+	padding-right:5px;
+}
+.ceneo-vertical-plugin .prodPix img, .ceneo-horizontal-plugin .prodPix img {border:0;}
+.ceneo-horizontal-plugin .prodPix img {
+	max-width:105px;
+}
+.ceneo-vertical-plugin .shopInfo, .ceneo-horizontal-plugin .shopInfo {
+	font-size:0.9em
+}
+.ceneo-horizontal-plugin .prodItem {
+	display:table-cell;
+	width:230px !important;
+	padding:0 10px;
+	border-right:1px solid #ddd
+}
+#sidebar .ceneo-horizontal-plugin a:link, #sidebar .ceneo-horizontal-plugin a:visited, #sidebar .ceneo-vertical-plugin a:link, #sidebar .ceneo-vertical-plugin a:visited {
+	color:#076E9E;
+}
+.scrolledContent {
+	display: table
+}
+.clearfix:before, .clearfix:after {
+	content:"";
+	display:table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}

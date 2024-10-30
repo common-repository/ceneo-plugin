@@ -1,0 +1,23 @@
+div#ceneo-admin-container div#ceneo-admin-leftcontent {
+	float    : left;
+    padding  : 10px;
+    position : relative;
+    width    : 28%;
+}
+
+div#ceneo-admin-container div#ceneo-admin-rightcontent {
+	border-left    : 1px solid #E6E6E6;
+    float          : left;
+    margin-bottom  : -10px;
+    margin-left    : 3%;
+    min-height     : 100px;
+	padding        : 15px 0px 10px 10px;
+    width          : 63%;
+}
+div#ceneo-admin-container div.clearer {
+	clear  : both;
+	height : 0px;
+}
+
+
+
